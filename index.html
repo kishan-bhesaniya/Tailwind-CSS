@@ -90,7 +90,11 @@
           </button>
         </div>
         <div>
-          <img src="assets/Image-container.png" class="" alt="" />
+          <img
+            src="assets/Image-container.png"
+            class="w-3/4 mx-auto lg:w-auto"
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -115,7 +119,7 @@
             <img src="assets/Icon.png" alt="" />
           </button>
         </div>
-        <div class="w-3/4 lg:w-auto">
+        <div class="w-3/4 mx-auto lg:w-auto">
           <img src="assets/c.png" alt="" />
         </div>
       </div>
@@ -125,7 +129,7 @@
       <div
         class="max-w-[1480px] w-full mx-auto gap-30 flex flex-col gap-8 lg:flex-row"
       >
-        <div class="w-3/4 lg:w-auto">
+        <div class="w-3/4 mx-auto lg:w-auto">
           <img src="assets/Work Together Image.png" alt="" />
         </div>
         <div class="flex-3 flex flex-col justify-center items-start">
@@ -173,7 +177,7 @@
             />
           </button>
         </div>
-        <div class="w-3/4 lg:w-auto">
+        <div class="w-3/4 mx-auto lg:w-auto">
           <img src="assets/Illustration.png" alt="" />
         </div>
       </div>
@@ -183,7 +187,7 @@
       <div
         class="max-w-[1480px] w-full mx-auto flex flex-col gap-8 lg:flex-row"
       >
-        <div class="w-3/4 lg:w-auto">
+        <div class="w-3/4 mx-auto lg:w-auto">
           <img src="assets/b.png" alt="" />
         </div>
         <div class="flex-3 flex flex-col justify-center items-start">
@@ -212,7 +216,7 @@
     <!-- plan section -->
     <section class="py-8 md:py-20 px-8 2xl:px-55">
       <div class="max-w-[1480px] text-center w-full mx-auto mb-20">
-        <h2 class="text-6xl font-bold">Choose Your Plan</h2>
+        <h2 class="text-3xl lg:text-6xl font-bold">Choose Your Plan</h2>
         <p class="mt-10 text-xl text-bold;">
           Whether you want to get organized, keep your personal life on track,
           or boost workplace productivity, Evernote has the right plan for you.
@@ -405,11 +409,15 @@
     </section>
     <!-- data section -->
     <section class="py-8 md:py-20 px-8 2xl:px-55">
-      <div class="max-w-[1480px] w-full mx-auto flex">
+      <div
+        class="max-w-[1480px] w-full mx-auto flex flex-col-reverse gap-10 md:flex-row md:gap-0"
+      >
         <div
           class="flex-3 flex flex-col justify-center items-start mr-12 items-center"
         >
-          <h3 class="text-6xl font-bold">100% your data</h3>
+          <h3 class="text-3xl text-center lg:text-6xl font-bold">
+            100% your data
+          </h3>
           <p class="text-xl mt-6">
             The app is open source and your notes are saved to an open format,
             so you'll always have access to them. Uses End-To-End Encryption
@@ -577,7 +585,7 @@
     <!-- footer -->
     <section class="bg-sky-900 w-full py-8 md:py-20 px-8 2xl:px-55">
       <div
-        class="flex justify-between flex-col items-center sm:flex-nowrap sm:flex-row sm:flex-wrap gap-10 w-full mx-auto text-white"
+        class="flex justify-between flex-col sm:flex-nowrap sm:flex-row sm:flex-wrap gap-10 w-full mx-auto text-white"
       >
         <div class="w-60">
           <img src="assets/whitespaceLogo.png" alt="" />
@@ -612,7 +620,7 @@
             Get started for free. Add your whole team as your needs grow.
           </p>
           <button
-            class="block flex items-center text-center block gap-2 bg-blue-400 text-white rounded-md px-6 py-4 cursor-pointer mt-4"
+            class="block flex text-center block gap-2 bg-blue-400 text-white rounded-md px-6 py-4 cursor-pointer mt-4"
           >
             <span class="text-center">Start today </span>
             <img
@@ -623,9 +631,7 @@
           </button>
         </div>
       </div>
-      <div
-        class="flex justify-between flex-col gap-10 items-center lg:flex-row"
-      >
+      <div class="flex justify-between flex-col gap-10 lg:flex-row">
         <div class="justify-center mt-25">
           <ul
             class="flex gap-10 flex-col md:flex-row md:gap-22 text-white text-lg"
@@ -639,6 +645,7 @@
                 <option value="Hindi" class="text-black">Hindi</option>
               </select>
             </li>
+
             <li class="cursor-pointer">Terms & privacy</li>
             <li class="cursor-pointer">Security</li>
             <li class="cursor-pointer">Status</li>
